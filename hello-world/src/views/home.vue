@@ -520,6 +520,15 @@ export default {
       }, 10);
     },
     clearSearchFn() {
+      this.formInline = {
+        input: "",
+        follower: '',
+        timeBegin: '',
+        timeEnd: '',
+        timeBegincli: false,
+        timeEndcli: false,
+        options: []
+      }
       // this.formInline.input = "";
       // this.formInline.follower = '';
       // this.formInline.timeBegin = '';
