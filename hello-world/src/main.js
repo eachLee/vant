@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import App from './App.vue'
+import axios from 'axios'
 import '@/styles/index.css'
 import { Button } from 'vant'
 import { List } from 'vant'
@@ -14,6 +15,7 @@ import { Table, TableColumn } from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
 import { Pagination } from 'vant'
 
+Vue.prototype.$axios = axios
 Vue.use(Pagination)
 Vue.use(Table).use(TableColumn)
 

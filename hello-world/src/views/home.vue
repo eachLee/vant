@@ -105,49 +105,49 @@
       height="570"
     >
       <el-table-column
-        prop="businessScale"
+        prop="createTime"
         label="签回日期"
-        width="100"
+        width="200"
       >
       </el-table-column>
       <el-table-column
-        prop="businessScale"
+        prop="contractTypeName"
         label="签约类型"
         width="100"
       >
       </el-table-column>
       <el-table-column
-        prop="businessScale"
+        prop="ContractName"
         label="合同名称"
         width="100"
       >
       </el-table-column>
       <el-table-column
-        prop="businessScale"
+        prop="BusinessDept"
         label="事业部"
         width="100"
       >
       </el-table-column>
       <el-table-column
-        prop="businessScale"
+        prop="deptName"
         label="拓展组别"
         width="100"
       >
       </el-table-column>
       <el-table-column
-        prop="businessScale"
+        prop="leaderName"
         label="组长"
         width="80"
       >
       </el-table-column>
       <el-table-column
-        prop="businessScale"
+        prop="chargerName"
         label="组员"
         width="70"
       >
       </el-table-column>
       <el-table-column
-        prop="businessScale"
+        prop="regionName"
         label="片区"
         width="100"
       >
@@ -158,7 +158,7 @@
         width="100"
       >
       </el-table-column>
-      <el-table-column
+      <!-- <el-table-column
         prop="businessScale"
         label="住宅规模（万方）"
         width="140"
@@ -205,14 +205,14 @@
         label="平均代理费率"
         width="140"
       >
-      </el-table-column>
+      </el-table-column> -->
       <el-table-column
-        prop="developer"
+        prop="developerName"
         label="开发商"
         width="100"
       >
       </el-table-column>
-      <el-table-column
+      <!-- <el-table-column
         prop="majorClient"
         label="大客户名称"
         width="130"
@@ -247,7 +247,7 @@
         label="合同期限"
         width="100"
       >
-      </el-table-column>
+      </el-table-column> -->
     </el-table>
     <van-pagination
       v-model="currentPage"
@@ -275,207 +275,7 @@ export default {
         options: []
       },
       currentDate: new Date(),
-      tableData: [{
-        businessScale: '1000',
-        officeScale: '2000',
-        othersScale: '1500',
-        serviceMode: '服务模式',
-        startRate: '7.6',
-        highRate: '14.3',
-        rangeRate: '10.4',
-        developer: '中原地产',
-        majorClient: '中原'
-      }, {
-        businessScale: '1000',
-        officeScale: '2000',
-        othersScale: '1500',
-        serviceMode: '服务模式',
-        startRate: '7.6',
-        highRate: '14.3',
-        rangeRate: '10.4',
-        developer: '中原地产',
-        majorClient: '中原'
-      }, {
-        businessScale: '1000',
-        officeScale: '2000',
-        othersScale: '1500',
-        serviceMode: '服务模式',
-        startRate: '7.6',
-        highRate: '14.3',
-        rangeRate: '10.4',
-        developer: '中原地产',
-        majorClient: '中原'
-      }, {
-        businessScale: '1000',
-        officeScale: '2000',
-        othersScale: '1500',
-        serviceMode: '服务模式',
-        startRate: '7.6',
-        highRate: '14.3',
-        rangeRate: '10.4',
-        developer: '中原地产',
-        majorClient: '中原'
-      }, {
-        businessScale: '1000',
-        officeScale: '2000',
-        othersScale: '1500',
-        serviceMode: '服务模式',
-        startRate: '7.6',
-        highRate: '14.3',
-        rangeRate: '10.4',
-        developer: '中原地产',
-        majorClient: '中原'
-      }, {
-        businessScale: '1000',
-        officeScale: '2000',
-        othersScale: '1500',
-        serviceMode: '服务模式',
-        startRate: '7.6',
-        highRate: '14.3',
-        rangeRate: '10.4',
-        developer: '中原地产',
-        majorClient: '中原'
-      }, {
-        businessScale: '1000',
-        officeScale: '2000',
-        othersScale: '1500',
-        serviceMode: '服务模式',
-        startRate: '7.6',
-        highRate: '14.3',
-        rangeRate: '10.4',
-        developer: '中原地产',
-        majorClient: '中原'
-      }, {
-        businessScale: '1000',
-        officeScale: '2000',
-        othersScale: '1500',
-        serviceMode: '服务模式',
-        startRate: '7.6',
-        highRate: '14.3',
-        rangeRate: '10.4',
-        developer: '中原地产',
-        majorClient: '中原'
-      }, {
-        businessScale: '1000',
-        officeScale: '2000',
-        othersScale: '1500',
-        serviceMode: '服务模式',
-        startRate: '7.6',
-        highRate: '14.3',
-        rangeRate: '10.4',
-        developer: '中原地产',
-        majorClient: '中原'
-      }, {
-        businessScale: '1000',
-        officeScale: '2000',
-        othersScale: '1500',
-        serviceMode: '服务模式',
-        startRate: '7.6',
-        highRate: '14.3',
-        rangeRate: '10.4',
-        developer: '中原地产',
-        majorClient: '中原'
-      }, {
-        businessScale: '1000',
-        officeScale: '2000',
-        othersScale: '1500',
-        serviceMode: '服务模式',
-        startRate: '7.6',
-        highRate: '14.3',
-        rangeRate: '10.4',
-        developer: '中原地产',
-        majorClient: '中原'
-      }, {
-        businessScale: '1000',
-        officeScale: '2000',
-        othersScale: '1500',
-        serviceMode: '服务模式',
-        startRate: '7.6',
-        highRate: '14.3',
-        rangeRate: '10.4',
-        developer: '中原地产',
-        majorClient: '中原'
-      }, {
-        businessScale: '1000',
-        officeScale: '2000',
-        othersScale: '1500',
-        serviceMode: '服务模式',
-        startRate: '7.6',
-        highRate: '14.3',
-        rangeRate: '10.4',
-        developer: '中原地产',
-        majorClient: '中原'
-      }, {
-        businessScale: '1000',
-        officeScale: '2000',
-        othersScale: '1500',
-        serviceMode: '服务模式',
-        startRate: '7.6',
-        highRate: '14.3',
-        rangeRate: '10.4',
-        developer: '中原地产',
-        majorClient: '中原'
-      }, {
-        businessScale: '1000',
-        officeScale: '2000',
-        othersScale: '1500',
-        serviceMode: '服务模式',
-        startRate: '7.6',
-        highRate: '14.3',
-        rangeRate: '10.4',
-        developer: '中原地产',
-        majorClient: '中原'
-      }, {
-        businessScale: '1000',
-        officeScale: '2000',
-        othersScale: '1500',
-        serviceMode: '服务模式',
-        startRate: '7.6',
-        highRate: '14.3',
-        rangeRate: '10.4',
-        developer: '中原地产',
-        majorClient: '中原'
-      }, {
-        businessScale: '1000',
-        officeScale: '2000',
-        othersScale: '1500',
-        serviceMode: '服务模式',
-        startRate: '7.6',
-        highRate: '14.3',
-        rangeRate: '10.4',
-        developer: '中原地产',
-        majorClient: '中原'
-      }, {
-        businessScale: '1000',
-        officeScale: '2000',
-        othersScale: '1500',
-        serviceMode: '服务模式',
-        startRate: '7.6',
-        highRate: '14.3',
-        rangeRate: '10.4',
-        developer: '中原地产',
-        majorClient: '中原'
-      }, {
-        businessScale: '1000',
-        officeScale: '2000',
-        othersScale: '1500',
-        serviceMode: '服务模式',
-        startRate: '7.6',
-        highRate: '14.3',
-        rangeRate: '10.4',
-        developer: '中原地产',
-        majorClient: '中原'
-      }, {
-        businessScale: '1000',
-        officeScale: '2000',
-        othersScale: '1500',
-        serviceMode: '服务模式',
-        startRate: '7.6',
-        highRate: '14.3',
-        rangeRate: '10.4',
-        developer: '中原地产',
-        majorClient: '中原'
-      },],
+      tableData: [],
       active: 0
     };
   },
@@ -529,13 +329,29 @@ export default {
         timeEndcli: false,
         options: []
       }
-      // this.formInline.input = "";
-      // this.formInline.follower = '';
-      // this.formInline.timeBegin = '';
-      // this.formInline.timeEnd = '';
     },
     searchFn() {
       this.showSearchContent = false
+      var params = {
+        seachName: this.formInline.input,
+        followNo: this.formInline.follower,
+        signedStartTime: this.formInline.signedStartTime ? this.formInline.signedStartTime.toGMTString() : '',
+        signedEndTime: this.formInline.signedEndTime ? this.formInline.signedEndTime.toGMTString() : ''
+
+      }
+      this.$axios({
+        url: 'http://10.5.4.42:9090/get-signedPY-notice',
+        method: 'get',
+        headers: {
+          "Content-type": "application/json;charset=UTF-8"
+        },
+        data: JSON.stringify(params),
+      }).then((res) => {
+        this.tableData = res.data.result;
+        console.log(res.data);
+      }).catch((error) => {
+        console.log(error);
+      });
     }
   }
 }
